@@ -32,7 +32,7 @@ export default defineConfig({
     VitePluginRadar({
       // Google Analytics tag injection
       analytics: {
-        id: 'G-EP7N8FWQZ9'
+        id: 'G-C41M3E6YPG'
       }
     }),
     VitePWA({
