@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar>
       <v-container class="d-flex align-center">
-        <v-app-bar-title>番茄鐘</v-app-bar-title>
+        <v-app-bar-title>茄汁時鐘(番茄鍾)</v-app-bar-title>
         <v-btn prepend-icon="mdi-home" to="/">首頁</v-btn>
         <v-btn prepend-icon="mdi-list-status" to="/list">事項</v-btn>
         <v-btn prepend-icon="mdi-cog" to="/settings">設定</v-btn>
@@ -29,3 +29,13 @@
 
 <script setup>
 </script>
+
+<style>
+/* Add a background image to v-main */
+.v-main {
+  background-image: url('@/assets/cat.jpg'); /* Adjust the path accordingly */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+</style>
